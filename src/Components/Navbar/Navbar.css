@@ -1,0 +1,32 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+}
+ul li {
+  padding: 0.5em;
+}
+
+#hire-me {
+  border: 1px solid black;
+  padding: 0.75rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  transition: 0.25s linear;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-bar {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
